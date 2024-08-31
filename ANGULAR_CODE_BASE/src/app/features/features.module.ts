@@ -7,6 +7,7 @@ import { DashboardHomeComponent } from './users/components/dashboard/dashboard-h
 import { ReUsableModule } from '../common/re-usable.module';
 import { RegistrationComponent } from './users/registration/registration.component';
 import { FeaturesRoutingModule } from './users/features-routing.module';
+import { UserComponent } from './user/user.component';
 
 @NgModule({
   imports: [
@@ -19,7 +20,7 @@ import { FeaturesRoutingModule } from './users/features-routing.module';
   declarations: [
     RegistrationComponent,
     EditProfileComponent, 
-    DashboardHomeComponent    
+    DashboardHomeComponent, UserComponent    
   ],
   providers: [
   ]
